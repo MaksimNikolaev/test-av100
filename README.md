@@ -1,24 +1,22 @@
-# test-av100
+# Тестовое задание
 
-## Project setup
-```
-npm install
-```
+Требования:
+- Cобрать страницу https://av100.pro/settings (доступна после регистрации на сайте).
+- От  заголовка "Настройки" до кнопки "Сохранить". Хедер и футер делать не нужно.
+- При этом пересобрать в обратном порядке от кнопки "Сохранить" к заголовку.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+При этом "Сохранить" должно работать для почты юзера (по put), остальные параметры не модифицируемы. 
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Инструкция по установке и запуску проекта:
 
-### Lints and fixes files
-```
-npm run lint
-```
+1. Откройте редактор кода, с помощью терминала перейдите в папку, где будет развернут проект и скопируйте его с помощью команды **git clone** `git@github.com:MaksimNikolaev/test-av100.git`
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+2. Перейдите в папку приложения и установите все зависимости с помощью команды **npm i**
+
+3. Запустите проект с помощью команды **npm run serve**
+
+<p align="center">
+  <img align="center" width="800px" src="https://github.com/MaksimNikolaev/test-av100/blob/main/preview.gif"> <br />
+</p>
+
+[**Результат**](https://test-av100.vercel.app/)
